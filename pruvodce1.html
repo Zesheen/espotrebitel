@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>e-Spotřebitel</title>
+    <link rel="icon" href="vectors/compass.svg" type="image/icon type">
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <link rel="stylesheet" href="stylesheets/pruvodce1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <script>
+      function checkAndRedirect() {
+          var check1 = document.getElementById("check1");
+          var check2 = document.getElementById("check2");
+          var check3 = document.getElementById("check3");
+          
+          if (check1.checked && check2.checked && check3.checked) {
+              window.location.href = "pruvodce2.html";
+          } else {
+              window.location.href = "nespotrebitel.html";
+          }
+      }
+  </script>
+  </head>
+  <body>
+    <header>
+        <img class="logo_compass" src="vectors/logoCompass.svg">
+        <img class="logo_name" src="vectors/logoName.svg">
+        <div class="header_fill"></div>
+    </header>
+    <nav>
+      <div class="header_line"></div> 
+      <img class="rectangle" src="vectors/headerRectangle.svg">
+      <img class="menu" src="vectors/menu.svg">
+      <p class="menu_text" id="text_1">O e-Spotřebiteli</p>
+      <p class="menu_text" id="text_2">Časté dotazy</p>
+      <p class="menu_text" id="text_3">Právní poradenství</p>
+      <p class="menu_text" id="text_4">Návody</p>
+      <p class="menu_text" id="text_5">Dokumenty</p>
+      <p class="menu_text" id="text_6">Kontaktujte nás</p>
+    </nav>
+    <main>
+      <p id="s2_p1">1. Jsem spotřebitel?</p>
+      <p id="s2_p2">(Zaklikněte ano, pokud splňujete všechny níže uvedené znaky)</p>
+      <div class="container_a">
+        <div class="section1"><input id="check1" type="checkbox"></div>
+        <div class="section2"><p id="s2_p3">Jsem <span class="bold">fyzická osoba</span></p><p id="s2_p3a">(nejsem obchodní společnost ani nevystupuji v této záležitosti za jakoukoliv společnost)</p></div>
+      </div>
+      <div class="container_b">
+        <div class="section1"><input id="check2" type="checkbox"></div>
+        <div class="section2"><p id="s2_p4">Řeším záležitost ohledně <span class="bold">smlouvy, kterou jsem uzavíral pro svou osobní potřebu</span></p><p id="s2_p4a">(nenakupoval/a jsem pro účely obchodování, provozování podniku a jakékoliv jiné ekonomické činnosti)</p></div>
+      </div>
+      <div class="container_c">
+        <div class="section1"><input id="check3" type="checkbox"></div>
+        <div class="section2"><p id="sp_p5"><span class="bold">Druhá strana</span> smlouvy/osoba, od které jsem něco koupil, je <span class="bold">obchodník</span>/živí se danou činností/je profesionálem v obchodování v dané oblasti.</p></div>
+      </div>
+      <button id="pokracovat" onclick="checkAndRedirect()">Pokračovat</button>
+    </main>
+    <footer>
+      <p class="text_bottom">
+        e-Spotřebitel &#169; 2024, ikony &#169; <a class="bottom_link" href="https://www.svgrepo.com/" target="_blank">svgrepo.com</a>, písmo &#169;  <a class="bottom_link" href="https://fonts.google.com/" target="_blank">Google fonts</a>
+      </p>
+    </footer>
+  </body>
+</html>
