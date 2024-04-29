@@ -1,0 +1,44 @@
+main {
+  margin-top: 170px;
+  margin-left: 210px;
+  margin-right: 13px;
+  font-size: 20px;
+  height: 510px;
+  text-align: left;
+  color: black;
+}
+
+#s2_p1 {
+  padding-top: 50px;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.container1 {
+  display: flex;
+  margin-left: 20px;
+  column-gap: 20px;
+}
+
+.item1, .item2, .item3, .item4 {
+  flex: 1
+}
+
+#what_DO, #reklamace_DO, #odstoupeni_DO, #informace_DO {
+  height: 300px;
+  font-size: 20px;
+  border-radius: 30px;
+  border: none;
+  width: 100%;
+  background-color: #496847;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.8);
+  color: #f0f7ee;
+  font-weight: 500;
+}
+
+#what_DO:hover, #reklamace_DO:hover, #odstoupeni_DO:hover, #informace_DO:hover {
+  background-color: #14342b;
+  cursor: pointer;
+}
