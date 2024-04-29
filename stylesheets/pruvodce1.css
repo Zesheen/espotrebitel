@@ -1,0 +1,92 @@
+main {
+  margin-top: 170px;
+  margin-left: 210px;
+  margin-right: 13px;
+  font-size: 20px;
+  height: 510px;
+  text-align: left;
+  color: black;
+}
+
+#s2_p1 {
+  padding-top: 50px;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+#s2_p2 {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.container_a {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  column-gap: 20px;
+}
+
+.container_b {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  column-gap: 20px;
+}
+
+.container_c {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  column-gap: 20px;
+}
+
+#check1, #check2, #check3 {
+  width: 20px;
+  height: 20px;
+}
+
+#s2_p3, #s2_p3a, #s2_p4, #s2_p4a, #s2_p5 {
+  margin-top: 0px; 
+}
+
+#s2_p3, #s2_p4 {
+  margin-bottom: -20px; 
+}
+
+#s2_p3a, #s2_p4a {
+  margin-top: 25px;
+  font-style: italic; 
+}
+
+.bold {
+  font-weight: 500;
+}
+
+#pokracovat {
+  width: 200px;
+  height: 50px;
+  margin-left: 45px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  border-radius: 30px;
+  font-size: 20px;
+  border: none;
+  background-color: #496847;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.8);
+  font-weight: 600;
+  color: #f0f7ee;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+#pokracovat:hover {
+  background-color: #14342b;
+  cursor: pointer;
+}
+
+
